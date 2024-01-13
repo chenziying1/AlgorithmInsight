@@ -28,5 +28,8 @@ def home():
     else:
         return render_template('index.html')
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=5002)
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0",port=5002)
+if __name__ == '__main__':
+    app.run(host='2409:8954:6699:96a0:227:2aff:fe95:9d1a', port=5000)
+
